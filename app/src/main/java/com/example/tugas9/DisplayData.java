@@ -1,4 +1,4 @@
-package com.example.tugas4;
+package com.example.tugas9;
 import static com.example.sqllitewithimage.DBmain.TABLENAME;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -8,9 +8,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
-import
-        com.example.sqllitewithimage.databinding.ActivityDisplayDataBindi
-ng;
+import com.example.sqllitewithimage.databinding.ActivityDisplayDataBinding;
 import java.util.ArrayList;
 public class DisplayData extends AppCompatActivity {
     DBmain dBmain;
